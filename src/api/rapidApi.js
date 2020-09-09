@@ -5,8 +5,8 @@ const instance = axios.create({
   baseURL: 'https://ai-news-global.p.rapidapi.com',
   headers: {
     'content-type':'application/octet-stream',
-    'x-rapidapi-host': 'ai-news-global.p.rapidapi.com',
-    'x-rapidapi-key': '917a12fdddmsh5f5ea29b79c3e38p14d9b1jsn90d86c3fa139',
+    'x-rapidapi-host': '',
+    'x-rapidapi-key': '',
     'useQueryString': 'true'
   }
 });
