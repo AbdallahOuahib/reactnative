@@ -35,5 +35,5 @@ export default {
             'headers': {
               'content-type':'application/json'  // override instance defaults
             }
-        }),    
+        }) 
 }

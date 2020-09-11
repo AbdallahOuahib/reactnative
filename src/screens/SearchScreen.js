@@ -10,16 +10,10 @@ const SearchScreen = () => {
     //console.log(results);
     return (
         <>
-            {/* <ScrollView> */}
-                {/* <Button
-                    title="Go to Details"
-                    onPress={() => navigation.navigate('Details')}
-                /> */}
-                <ResultsList
-                    results={results}
-                    title="Programming Wisdom"
-                />
-            {/* </ScrollView> */}
+            <ResultsList
+                results={results}
+                title="Programming Wisdom"
+            />
         </>
     );
 

@@ -16,23 +16,6 @@ export default () => {
                     console.log(error)
                 })
     }
-    
-    
-    //Call API in react native
-    // const searchApi = async searchTerm => {
-    //     console.log('Hi there!');
-    //     try {
-    //         const response = await rapidApi.get('/get_news/v1/us', {
-    //             params: {
-    //                 term: searchTerm
-    //             }
-    //         });
-            
-    //         setResults(response);
-    //     } catch (err) {
-    //         setErrorMessage('Something went wrong');
-    //     }
-    // }
 
     //useEffect is hook executed one time with empty array as argument
     useEffect(() => {

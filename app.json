@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "news-rapid-api",
-    "slug": "news-rapid-api",
+    "name": "programming-quote",
+    "slug": "programming-quote",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

@@ -16,6 +16,11 @@ const DetailsScreen = ({navigation }) => {
                 title="Go back to first screen in stack"
                 onPress={() => navigation.popToTop()}
             />
+            
+            {/* <Button
+                    title="Go to Details"
+                    onPress={() => navigation.navigate('Details')}
+                /> */}
         </View>
     );
 

@@ -4,7 +4,9 @@ import { withNavigation } from 'react-navigation';//to still use navigation with
 import ResultsDetail from './ResultsDetail';
 import { useNavigation } from '@react-navigation/native';
 
-const ResultsList = ({ title, results, navigation }) => {
+const ResultsList = ({ title, results }) => {
+  const navigation = useNavigation();
+
   if (!results.length) {
     return null;
   }
@@ -16,7 +18,6 @@ const ResultsList = ({ title, results, navigation }) => {
         horizontal={false}
         showsHorizontalScrollIndicator={false}
         data={results}
-        //keyExtractor={result => result.id}
         keyExtractor={(item, index) => item.id}
         renderItem={({ item }) => {
           return (
@@ -45,4 +46,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default withNavigation(ResultsList);
+export default ResultsList;
